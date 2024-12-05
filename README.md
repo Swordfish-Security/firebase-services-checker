@@ -4,11 +4,11 @@
 
 1. Достаём из декомпилированного приложения (целевого) следующие данные:
 ```
-<string name=«google_app_id»>1:421150332737:…</string>
-<string name=«google_api_key»>AIzaSyDANl17-T_…</string>
-<string name=«gcm_defaultSenderId»>421150332…</string>
-<string name=«project_id»>notes-…</string>
-<string name=«google_storage_bucket»>notes-…</string>
+<string name="google_app_id">1:421150332737:…</string>
+<string name="google_api_key">AIzaSyDANl17-T_…</string>
+<string name="gcm_defaultSenderId">421150332…</string>
+<string name="project_id">notes-…</string>
+<string name="google_storage_bucket">notes-…</string>
 ```
 2. Дизассемблируем приложение, которое будет проверять доступность сервисов с помощью команды:
 ```
